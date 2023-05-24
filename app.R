@@ -8,8 +8,8 @@ library(htmltools)
 library(htmlwidgets)
 library(tidygeocoder) # Used for geocoding
 # selectIput data
-selectInput_data <- readRDS(file = "www/select_item_data.rds")
-icon_tbl <- read_rds("www/icon_tbl.rds")
+selectInput_data <- readRDS(file = "select_item_data.rds")
+icon_tbl <- read_rds("icon_tbl.rds")
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
